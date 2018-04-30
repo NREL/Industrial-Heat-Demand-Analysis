@@ -1,0 +1,335 @@
+EPA_FUEL_TYPE,MECS_FT,Biogenic
+Anthracite,Coal,FALSE
+Bituminous,Coal,FALSE
+Subbituminous,Coal,FALSE
+Lignite,Coal,FALSE
+Coal Coke,Coal,FALSE
+Mixed (Commercial sector),Coal,FALSE
+Mixed (Industrial coking),Coal,FALSE
+Mixed (Industrial sector),Coal,FALSE
+Mixed (Electric Power sector),Coal,FALSE
+Natural Gas (Weighted U.S. Average),Natural_gas,FALSE
+Distillate Fuel Oil No. 1,Diesel,FALSE
+Distillate Fuel Oil No. 2,Diesel,FALSE
+Distillate Fuel Oil No. 4,Diesel,FALSE
+Residual Fuel Oil No. 5,Residual_fuel_oil,FALSE
+Residual Fuel Oil No. 6,Residual_fuel_oil,FALSE
+Used Oil,Other,FALSE
+Kerosene,Other,FALSE
+Liquefied petroleum gases (LPG),LPG_NGL,FALSE
+Propane,LPG_NGL,FALSE
+Propylene,LPG_NGL,FALSE
+Ethane,LPG_NGL,FALSE
+Ethanol,Other,TRUE
+Ethylene,LPG_NGL,FALSE
+Isobutane,LPG_NGL,FALSE
+Isobutylene,LPG_NGL,FALSE
+Butane,LPG_NGL,FALSE
+Butylene,LPG_NGL,FALSE
+Naphtha (<401 deg F),Other,FALSE
+Natural Gasoline,LPG_NGL,FALSE
+Other Oil (>401 deg F),Other,FALSE
+Pentanes Plus,LPG_NGL,FALSE
+Petrochemical Feedstocks,Other,FALSE
+Petroleum Coke,Other,FALSE
+Special Naphtha,Other,FALSE
+Unfinished Oils,Other,FALSE
+Heavy Gas Oils,Other,FALSE
+Lubricants,Other,FALSE
+Motor Gasoline,Other,FALSE
+Aviation Gasoline,Other,FALSE
+Kerosene-Type Jet Fuel,Other,FALSE
+Asphalt and Road Oil,Other,FALSE
+Crude Oil,Other,FALSE
+Municipal Solid Waste,Other,FALSE
+Tires,Other,FALSE
+Plastics,Other,FALSE
+Blast Furnace Gas,Other,FALSE
+Coke Oven Gas,Other,FALSE
+Propane Gas,LPG_NGL,FALSE
+Fuel Gas,Other,FALSE
+Wood and Wood Residuals (dry basis),Other,TRUE
+Agricultural Byproducts,Other,TRUE
+Peat,Other,TRUE
+Solid Byproducts,Other,TRUE
+Landfill Gas,Other,TRUE
+Other Biomass Gases,Other,TRUE
+Biomass Ethanol,Other,TRUE
+Biodiesel,Other,TRUE
+Rendered Animal Fat,Other,TRUE
+Vegetable Oil,Other,TRUE
+Biogas (Captured methane),Other,TRUE
+Wood and Wood Residuals,Other,TRUE
+Coke,Coal,FALSE
+Ethanol (100%),Other,TRUE
+Biodiesel (100%),Other,TRUE
+Waste oil,Other,FALSE
+OCCrejects,Other,TRUE
+OCCRejects,Other,TRUE
+OCC Rejects,Other,TRUE
+Wastewater Treatment Plant Sludge,Other,TRUE
+Wood Oil,Other,TRUE
+No.6 oil & Used Oil Blend,Residual_fuel_oil,FALSE
+No6 Oil & Used Oil Blend,Residual_fuel_oil,FALSE
+No6 Fuel Oil Blend,Residual_fuel_oil,FALSE
+Refinery Fuel Gas 1,Other,FALSE
+Refinery Fuel Gas 2,Other,FALSE
+Refinery Fuel Gas 661703,Other,FALSE
+Refinery Fuel Gas 662701,Other,FALSE
+Process Gas,Other,FALSE
+Waste oil,Other,FALSE
+Engineered Fuel,Other,FALSE
+Old Corrugated Container Rejects,Other,TRUE
+OCC Rejects,Other,TRUE
+Mixture (Bituminous & Subbituminous Coal),Coal,FALSE
+Blend (bituminous/subituminous),Coal,FALSE
+Wood  wood oil  and wood pellets,Other,TRUE
+Blended Fuel Oil,Residual_fuel_oil,FALSE
+No.6 Oil & Used Oil Blend,Residual_fuel_oil,FALSE
+Coal Blend,Coal,FALSE
+Demethanizer Fuel,Other,FALSE
+Fuel,Other,FALSE
+Acid Gas,Other,FALSE
+Ultra-Low Sulfur Diesel,Diesel,FALSE
+Acetylene,LPG_NGL,FALSE
+Jet A (Tier 1),LPG_NGL,FALSE
+Waste Coal,Coal,FALSE
+Waste Coal - NPC,Coal,FALSE
+Waste coal,Coal,FALSE
+Diesel fuel,Diesel,FALSE
+Off Spec Jet A (Tier 3),LPG_NGL,FALSE
+tire fluff,Other,FALSE
+Tire fluff,Other,FALSE
+Tire Fluff,Other,FALSE
+CFU MD Fuel Gas,Other,FALSE
+4UF Fuel Gas,Other,FALSE
+SRUMD Fuel Gas,Other,FALSE
+HCC3 NG/OG Blend A,Other,FALSE
+HCC3 NG/OG A and B,Other,FALSE
+HCC-3A NG/OG A and B,Other,FALSE
+HCC3A NG/OG Blend A,Other,FALSE
+FurnGas,Other,FALSE
+NOx Red. Agent,Other,FALSE
+Ethylene Unit Tail Gas,Other,FALSE
+Other Gaseous Fuel,Other,FALSE
+Natural and Process Gas Blend,Other,FALSE
+VPS-2 Waste Gas,Other,FALSE
+VPS-1 Waste Gas,Other,FALSE
+H-OIL Waste Gas,Other,FALSE
+Butane (gaseous),LPG_NGL,FALSE
+Vacuum Tail Gas,Other,FALSE
+Light Straight Run Gasoline,Other,FALSE
+Other Gaseous Fuel,Other,FALSE
+KATT,Other,FALSE
+KATT Fuel,Other,FALSE
+Blend (solid),Coal,FALSE
+Bituminous Coal and Coke Blend,Coal,FALSE
+HYD-01,Other,FALSE
+Abatement Gas,Other,FALSE
+Heavy Residue,Other,FALSE
+Oilfield Gas,Other,FALSE
+Tail Gas,Other,FALSE
+Vacuum Gas,Other,FALSE
+OFG,Other,FALSE
+Refinery Fuel Gas,Other,FALSE
+PSA Gas,Other,FALSE
+Combined Purge Gas and Cold Box Fuel,Other,FALSE
+Ethylene off-gas,Other,FALSE
+Other Gaseous Fuel,Other,FALSE
+vent gas (Oxo Propane Recycle),Other,FALSE
+Oxo Propane Recycle,Other,FALSE
+WGA,Other,FALSE
+LFG,Other,FALSE
+Waste 1,Other,FALSE
+Waste 2,Other,FALSE
+Reactor offgas,Other,FALSE
+Corn Syrup from Ethanol Production,Other,TRUE
+PSA Off-gas,Other,FALSE
+FXG,Other,FALSE
+LOP-RFG,Other,FALSE
+CF-RFG,Other,FALSE
+LSR,Other,FALSE
+Sweet Fuel Gas,Other,FALSE
+Railroad Ties,Other,FALSE
+Tire chips,Other,FALSE
+RDF,Other,FALSE
+Mixed Gas (NG + MAP),Other,FALSE
+Process Off-gas,Other,FALSE
+Process OffGas,Other,FALSE
+OffGas,Other,FALSE
+Other - Off Gas,Other,FALSE
+Off Gas (Other),Other,FALSE
+Blend (solid),Coal,FALSE
+70/30 Coal/Coke Blend,Coal,FALSE
+70/30 Coal/Pet Coke Blend,Coal,FALSE
+Carpet Fines,Other,FALSE
+Processed Oily Waste,Other,FALSE
+Methane Fuel Gas,Other,FALSE
+Other Gaseous Fuel,Other,FALSE
+Refinery Fuel/ Bullet Gas,Other,FALSE
+P-300 Liquid Bottoms,Other,FALSE
+Diesel #2  ultra low sulfur,Diesel,FALSE
+Syngas,Other,FALSE
+#2 Diesel,Diesel,FALSE
+Lignite Activation,Coal,FALSE
+Mixed Fuel Gas,Other,FALSE
+Biogenic Process Derived Fuel,Other,TRUE
+Biogenic Process Derived Fuel (PDF),Other,TRUE
+Biogenic Process Derived Fuel (Glidfuel),Other,TRUE
+Condensate Tank Vapors,Other,FALSE
+Subbitumious,Coal,FALSE
+Blend (liquid),Residual_fuel_oil,FALSE
+Blend (gas),Other,FALSE
+Process Gas Only,Other,FALSE
+diesel,Diesel,FALSE
+Mixed Gas (NG + MAP),Other,FALSE
+Hydrogen Fuel Gas,Other,FALSE
+CRU MD Fuel Gas,Other,FALSE
+Remediation - Thermal Oxidizer,Other,FALSE
+CFU MD Fuel Gas,Other,FALSE
+Refinery Produced Gas,Other,FALSE
+refinery gas,Other,FALSE
+Other (gas),Other,FALSE
+LPG,LPG_NGL,FALSE
+Vacuum,Other,FALSE
+Tailgas,Other,FALSE
+VRU Sponge Oil,Other,FALSE
+Raw Hydrogen Gas,Natural_gas,FALSE
+SNG,LPG_NGL,FALSE
+Tar Oil,Other,FALSE
+Naphtha/phenol,LPG_NGL,FALSE
+MBTU,Other,FALSE
+CO from scrubber off gas,Other,FALSE
+Reactor off gas,Other,FALSE
+Hydrogen,Other,FALSE
+Process,Other,FALSE
+Carbon Monoxide-P4P,Other,FALSE
+Activation (carbon),Other,FALSE
+Regeneration (carbon),Other,FALSE
+acetylene,Other,FALSE
+Combined Purge and Cold Box Fuel,Other,FALSE
+Engineered Pellet Fuel,Other,TRUE
+Tailgas,Other,FALSE
+Short Fiber,Other,FALSE
+SynGas,Other,FALSE
+Waste Bituminous Coal,Coal,FALSE
+Course Ore,Other,FALSE
+Produced (Associated) Gas,Natural_gas,FALSE
+Field Gas,Natural_gas,FALSE
+PSA Reject,Other,FALSE
+Blend,Other,FALSE
+PDO column bottoms,Other,FALSE
+Biogeninc Process Derived Fuel (PDF),Other,TRUE
+Waste Supplemental Fuel,Other,FALSE
+Blend (Liquid),Other,FALSE
+By-Product/Waste Gas/Natural Gas,Natural_gas,FALSE
+Refinery Gas,Other,FALSE
+waste anthracite culm,Coal,FALSE
+Waste Coal Refuse,Coal,FALSE
+70/30 Coal Pet Coke Blend,Coal,FALSE
+Soil Oil,Other,FALSE
+Raw landfill gas and processed landfill gas,Other,TRUE
+Raw landfill gas and waste gas,Other,TRUE
+Jet Fuel/Biofuel,Other,FALSE
+Raw Hydrogen,Other,FALSE
+HCC4 Offgas,Other,FALSE
+Carbon Monoxide,Other,FALSE
+AOG,Other,FALSE
+Medium BTU gas,Other,FALSE
+Terminal - Thermal Oxidizer,Other,FALSE
+Hyrdogen Rich Fuel Gas,Other,FALSE
+Fuel Gas - UFU/DDU,Other,FALSE
+Fuel Gas - SRU ,Other,FALSE
+Fuel Gas - V-917,Other,FALSE
+SRU Fuel Gas,Other,FALSE
+Vacuum Overhead,Other,FALSE
+Butamer Stabilizer,Other,FALSE
+Land Fill Gas,Other,TRUE
+Column Bottoms,Other,FALSE
+PSA Tail Gas,Other,FALSE
+Carbon Electrode,Other,FALSE
+Anthracite Culm,Coal,FALSE
+Stoddard Solvent,Other,FALSE
+Soddard Solvent A,Other,FALSE
+Light Straight Run,Other,FALSE
+RGAS,Other,FALSE
+CO2,Other,FALSE
+Medium BTU,Other,FALSE
+Heavy Residue ,Other,FALSE
+Methanator,Other,FALSE
+Engineered Fuel Pellets,Other,FALSE
+Anthracite Culm ,Coal,FALSE
+Tank16_Waste,Other,FALSE
+Waste_EDA2,Other,FALSE
+Waste_EDA1,Other,FALSE
+Acetone,Other,FALSE
+PDO Column Bottoms (biogenic),Other,FALSE
+Sweet Gas Return,Other,FALSE
+Blended Fuel,Other,FALSE
+70% No 2/30% No 6 Fuel Oil Blend,Diesel,FALSE
+65% No 2/35% No 6 Fuel Oil Blend,Diesel,FALSE
+Scrap Fat (from W-4 Tank),Other,TRUE
+Fatty Acid Pitch (from W-6 Tank),Other,TRUE
+Nitrile Pitch (from W-3 Tank),Other,TRUE
+Wax,Other,FALSE
+Natural gas/off-gas blend,Natural_gas,FALSE
+"Wax (Blend, Liquid)",Other,FALSE
+Sweet Gas  Return,Other,FALSE
+"Wood, wood oil, and wood pellets",Other,TRUE
+CO2 gas,Other,FALSE
+Fuel gas,Other,FALSE
+carbon monoxide,Other,FALSE
+Carbon monoxide,Other,FALSE
+Associated Gas (Brea),Other,FALSE
+Battery Separators,Other,FALSE
+blast furnance dust,Other,FALSE
+Waste2,Other,FALSE
+Waste1,Other,FALSE
+Waste specifiction oil,Other,FALSE
+Waste Gas,Other,FALSE
+TEOR Gas,Other,FALSE
+Tall Oil Byproducts,Other,TRUE
+Synthetic Gas not listed in Table C-2,Other,FALSE
+Synthesis Gas,Other,FALSE
+Station Fuel Gas,Other,FALSE
+Spent Activated Carbon,Other,FALSE
+Rice Hulls,Other,TRUE
+Reject Gas,Other,FALSE
+Received Gas,Other,FALSE
+PSA Reject Gas,Other,FALSE
+Process Raw Material,Other,FALSE
+Pelletized Fuel,Other,TRUE
+Other,Other,FALSE
+Oil filter fluff,Other,FALSE
+OG,Other,FALSE
+No fuels burned,Other,FALSE
+LP Flare Gas Feed,Other,FALSE
+Inlet Gas,Other,FALSE
+HP Flare Feed Gas,Other,FALSE
+Glycerin,Other,TRUE
+Gas to Flares,Other,FALSE
+"Diesel #2, ultra low sulfur",Diesel,FALSE
+Dehy Waste Gas,Other,FALSE
+CVR Gas,Other,FALSE
+Culm,Other,FALSE
+Condenser Output,Other,FALSE
+Coarse Ore,Other,FALSE
+Casing Vapor Recovery,Other,FALSE
+Carbon Regeneration,Other,FALSE
+Carbon Monoxide - P4P,Other,FALSE
+Carbon Activation,Other,FALSE
+blast furnance dust,Other,FALSE
+Battery Separators,Other,FALSE
+Associated Gas (Brea),Other,FALSE
+Activated Carbon,Other,FALSE
+HYDROGEN,Other,FALSE
+Biomass,Other,TRUE
+Biomass Blend,Other,TRUE
+Distillate Fuel Oil Blend No. 1&2,Diesel,FALSE
+Guzzler Hose ,Other,FALSE
+No. 1 and No. 2 diesel blend,Diesel,FALSE
+On-spec Oil,Other,FALSE
+Raw Landfill Gas / Processed Landfill Gas,Other,TRUE
+Raw Landfill Gas / Waste Gas,Other,TRUE
+"Spent Activated Carbon, Rubber, Filter Cake, Oil Filter Fluff",Other,FALSE
+Tar oil,Other,FALSE

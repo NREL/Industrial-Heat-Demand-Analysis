@@ -1,0 +1,37 @@
+GHGRP_EU,MECS_EU
+F (Furnace),Process Heating
+PRH (Process Heater),Process Heating
+"ICI (Incinerator, commercial and industrial)",Process Heating
+"CCCT (CC (Turbine, combined cycle))",CHP and/or Cogeneration Process
+"NGLH (Heater, natural gas line)",Process Heating
+CH (Comfort heater),Facility HVAC
+RICE (Reciprocating internal combustion engine),CHP and/or Cogeneration Process
+Electricity Generator,CHP and/or Cogeneration Process
+"TODF (Thermal oxidizer, direct fired, no heat recovery)",Process Heating
+FLR (Flare),End Use Not Reported
+"SCCT (CT (Turbine, simple cycle combustion))",CHP and/or Cogeneration Process
+RTO (Regenerative thermal oxidizer),Process Heating
+"HMH (Heater, heat medium for heat exchange)",Process Heating
+"CatH (Heater,  catalytic)",Process Heating
+"PCWW (Pulverized coal, wall-fired, wet bottom)",Conventional Boiler Use
+PD (Product or intermediate product dryer),Process Heating
+"PCT (Pulverized coal, tangentially-fired)",Conventional Boiler Use
+"PCWD (Pulverized coal, wall-fired, dry bottom)",Conventional Boiler Use
+O (Oven),Process Heating
+"BFB (Boiler, bubbling fluidized bed)",Conventional Boiler Use
+RCO (Regenerative catalytic oxidizer),Process Heating
+"HWH (Heater, hot water)",Other Facility Support
+HPPU (hydrogen production process units),Process Heating
+"PFB (Boiler, pressurized fluidized bed)",Conventional Boiler Use
+"OFB (Fluidized bed, other)",Conventional Boiler Use
+K (Kiln),Process Heating
+"II (Incinerator, institutional)",Process Heating
+Direct Reduction Furnace,Process Heating
+FeFL (Subpart Q - ladle reheater),Process Heating
+COB (By-product recovery coke oven battery combustion stacks (§98.172)),Process Heating
+C (Calciner),Process Heating
+CF (Cyclone Furnace),Process Heating
+"PCO (Pulverized coal, other)",Conventional Boiler Use
+Chemical Recovery Furnace,Process Heating
+Chemical Recovery Combustion Unit,Process Heating
+Flare,End Use Not Reported
