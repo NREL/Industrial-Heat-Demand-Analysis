@@ -15,12 +15,10 @@ import SupSizing
 import MakeCountyMap
 
 # This is the directory for files used in end-use calculations
-filesdir = "U:\\Industrial Heat Survey\\Paper Version\\Data and analysis\\" + \
-            "Data for calculations\\"
+#filesdir = 
 
 # This is the file location for relevant data downloaded from EPA's API
-energy_file = "C:\\Users\\cmcmilla\\Desktop\\GHGRP_output\\" + \
-            "GHGRP_all_20170908-1246.csv"
+#energy_file = 
 
 # This is total emissions, including biogenic
 emissions_file = "GHGRP_emissions_201015.csv"
@@ -136,11 +134,11 @@ pivot_target_ghgs = pd.pivot_table(
     values=['CO2E_bio_GHGRP', 'CO2E_fossil_GHGRP'], aggfunc='sum'
     ) /1000000
 #
-# %%
-pivot_target_ghgs.to_csv('Target_GHGRP_GHG_summary.csv')
+
+#pivot_target_ghgs.to_csv('Target_GHGRP_GHG_summary.csv')
 #
 
-# %%
+
 # Calculate energy by end use. Eu_results is a dictionary of dataframes:
 # 'target_enduse' is calculated end use energy based on MECS data and
 # GHGRP unit type designations and 'eu_noMECS' is end use energy calcualted
@@ -168,7 +166,7 @@ eu_results['target_enduse'][
     eu_results['target_enduse'].for_EU_sum == True][MECS_fts].sum() / \
     target_energy.groupby('MECS_FT').TJ.sum()
 
-# %%
+
 # For related energy values (doesn't break out by year):
 (1 - eu_results['target_enduse'][
     eu_results['target_enduse'].for_EU_sum == True][MECS_fts].sum() / \
@@ -190,7 +188,7 @@ eu_results['target_enduse'][
         aggfunc='sum').divide(
                target_energy.groupby('REPORTING_YEAR').TJ.sum(), axis=0
                )
-# %%
+
 # Create mapping of heat characteristics.
 target_char = Enduse_Calc.heat_mapping(
     eu_results['target_enduse'], ihs_data, proc_char='temp'
@@ -202,9 +200,9 @@ target_char = Enduse_Calc.ghg_calc(
     )
 
 # Output file for use in jupyter notebook
-target_char.to_csv(
-    "C:\\Users\\cmcmilla\\Desktop\\GHGRP_output\\target_char.csv"
-    )
+#target_char.to_csv(
+#    "C:\\Users\\cmcmilla\\Desktop\\GHGRP_output\\target_char.csv"
+#    )
 
 ##
 # Calulate matched load and matched supply for each facility
@@ -216,7 +214,7 @@ alt_load, all_load, supply_match = SupSizing.AltES_Sizing(target_char, True)
 # for a given year
 SupSizing.DrawMatchPlot(supply_match, all_load, 2015)
 
-#%%
+
 # Calculate annual fossil fuel and GHG savings by alt gen
 supply_savings, target_char = \
     SupSizing.MatchedSavings(supply_match, target_char)
@@ -227,7 +225,7 @@ for df in supply_savings.keys():
 
 xlswriter.save()
 #
-# %%
+
 # Summarize annual fossil fuel use by temperature range
 pd.pivot_table(
     target_char[target_char.Biogenic == False], 
@@ -293,7 +291,6 @@ ghg_savings_summ.sum(level='REPORTING_YEAR')['Savings MMTCO2E'].divide(
         ).sum(axis=0)
     )
 #
-#
 # Calculate annual dollar values of fossil fuel savings (in $B)
 ff_prices = pd.read_excel(
     filesdir + ff_price_file, sheetname='Dollar_per_TJ',
@@ -338,7 +335,6 @@ target_char.groupby(
 #            )
  
 
-# %%
 # Create county map of average annual total GHG savings
 # First create mapping dataset
 
@@ -361,7 +357,7 @@ savings_map_data = savings_map_data[savings_map_data.COUNTY_FIPS !=0]
 
 savings_map_data.dropna(subset=['savings_MMTCO2E_total'], axis=0, inplace=True)
 
-# %%
+
 for y in [2015]:
 
 #    savings_map_data = pd.DataFrame(
