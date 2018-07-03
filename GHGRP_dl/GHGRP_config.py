@@ -23,15 +23,17 @@ tables = ['C_FUEL_LEVEL_INFORMATION', 'D_FUEL_LEVEL_INFORMATION',
           'AA_FOSSIL_FUEL_INFORMATION', 'AA_SPENT_LIQUOR_INFORMATION'
           ]
 
-EFs = pd.read_csv("Y:/6A20/Public/ICET/Data for calculations/Data foundation" +
-    "/EPA_FuelEFs.csv", index_col=['Fuel_Type']
-    )
+# Data on CO2 and CH4 emission factors by fuel type 
+#EFs = pd.read_csv(" +
+#    "/EPA_FuelEFs.csv", index_col=['Fuel_Type']
+#    )
 
 EFs['dup_index'] = EFs.index.duplicated()
 
 EFs = pd.DataFrame(EFs[EFs.dup_index == False], columns=EFs.columns[0:2])
 
-file_dir = "C:/Users/cmcmilla/Desktop/GHGRP_output/Data for calcs/"
+# Set file directory
+#file_dir = 
 
 # List of facilities for correction of combustion emissions from Wood and Wood
 # Residuals for using Subpart C Tier 4 calculation methodology.
@@ -44,6 +46,7 @@ aa_sl_table = pd.DataFrame()
 
 aa_ffuel_table = pd.DataFrame()
 
+# Get data from EPA API
 for y in years:
 
     for t in tables:
@@ -52,21 +55,22 @@ for y in years:
 
         df.to_csv(t[0:6] + '_' + str(y) + '.csv')
 
-#for y in years:
-#    c_fuel_table = Get_GHGRP_data.get_GHGRP_records(y, tables[0])
-#
-#    c_fuel_table.to_csv('c_fuel_' + str(y) + '.csv')
-#
-#    d_fuel_table = Get_GHGRP_data.get_GHGRP_records(y, tables[1])
-#
-#    d_fuel_table.to_csv('d_fuel_' + str(y) + '.csv')
-#
-#    fac_table = Get_GHGRP_data.get_GHGRP_records(y, tables[2])
-#
-#    fac_table.to_csv('fac_table_' + str(y) + '.csv')
+for y in years:
+          
+   c_fuel_table = Get_GHGRP_data.get_GHGRP_records(y, tables[0])
 
-#    for t in [c_fuel_table, d_fuel_table, fac_table]:
-#        t.to_csv(str(t) + '_' + str(y) + '.csv')
+   c_fuel_table.to_csv('c_fuel_' + str(y) + '.csv')
+
+   d_fuel_table = Get_GHGRP_data.get_GHGRP_records(y, tables[1])
+
+   d_fuel_table.to_csv('d_fuel_' + str(y) + '.csv')
+
+   fac_table = Get_GHGRP_data.get_GHGRP_records(y, tables[2])
+
+   fac_table.to_csv('fac_table_' + str(y) + '.csv')
+
+   for t in [c_fuel_table, d_fuel_table, fac_table]:
+       t.to_csv(str(t) + '_' + str(y) + '.csv')
 
 # Subpart AA tables are much smaller and addressed slightly differently
 for y in years:
