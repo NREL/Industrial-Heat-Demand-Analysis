@@ -11,14 +11,15 @@ import pysal as ps
 class CountyEnergy_Maps(object):
     """
     Create county-level chloropleths based on data identified by 
-    state FIPS + county FIPS.
+    state FIPS + county FIPS. This is a modified version of code from
+    https://flowingdata.com/2009/11/12/how-to-make-a-us-county-thematic-map-using-free-tools/.
     """
 
 
     def __init__(self, county_file):
+        # This should point to the location of USA_Counties_with_FIPS_and_names.svg
         self.svg = open(
-            'U:\\Industrial Heat Survey\\Paper Version\Data and analysis\\' + \
-            'Data for calculations\\USA_Counties_with_FIPS_and_names.svg', 'r'
+            'USA_Counties_with_FIPS_and_names.svg', 'r'
             ).read()
 
         #Map colors. Example using http://colorbrewer2.org/.
