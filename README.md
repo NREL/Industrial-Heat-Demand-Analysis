@@ -23,6 +23,8 @@ Methods for estimating energy use by end use (e.g., conventional boiler, process
 Methods for identifying and separating industries that are the focus of the analysis (target industries). Target industries were identified by McMillan et al. (2016).
 #### SupSizing.py
 Methods for matching target industries to alternative energy supplies, plotting load demand curves, and estimating savings associated with alternative energy supply matching.
+#### MakeCountyMap.py
+Method for mapping county-level results to a .svg map.
 ### /data_for_heat_calcs
 This folder contains assumptions and other supporting data used to characterize target industry heat demand.
 ### /notebooks
